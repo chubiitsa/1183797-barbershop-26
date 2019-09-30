@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Барбершоп «Бородинский»</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic"
+        rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
@@ -11,7 +12,7 @@
 <body class="inner-page">
 
 <header class="main-header">
-  <nav class="main-navigation">
+  <nav class="main-navigation container">
     <a class="main-header-logo" href="index.html">
       <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
     </a>
@@ -42,6 +43,7 @@
     <li class="breadcrumbs-current">Средства для ухода</li>
   </ul>
 
+  <div class="catalog-columns">
   <section class="filters">
     <h2 class="visually-hidden">Фильтр товаров</h2>
     <form class="filter" method="get" action="https://echo.htmlacademy.ru">
@@ -49,27 +51,33 @@
         <legend>Производители:</legend>
         <ul>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox"
+                   name="baxter-of-california" id="filter-baxter-of-california" checked>
             <label for="filter-baxter-of-california">Baxter of California</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty" id="filter-mr-natty">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="mr-natty"
+                   id="filter-mr-natty">
             <label for="filter-mr-natty">Mr Natty</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito" id="filter-suavecito" checked>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="suavecito"
+                   id="filter-suavecito" checked>
             <label for="filter-suavecito">Suavecito</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="malin-goetz"
+                   id="filter-malin-goetz">
             <label for="filter-malin-goetz">Malin+Goetz</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays" id="filter-murrays">
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="murrays"
+                   id="filter-murrays">
             <label for="filter-murrays">Murray’s</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew" id="filter-american-crew" checked>
+            <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="american-crew"
+                   id="filter-american-crew" checked>
             <label for="filter-american-crew">American Crew</label>
           </li>
         </ul>
@@ -78,15 +86,18 @@
         <legend>Группы товаров:</legend>
         <ul>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="shaving" id="filter-shave">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group"
+                   value="shaving" id="filter-shave">
             <label for="filter-shave">Бритвенные принадлежности</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="hair-care" id="filter-care" checked>
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group"
+                   value="hair-care" id="filter-care" checked>
             <label for="filter-care">Средства для ухода</label>
           </li>
           <li class="filter-option">
-            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="accessories" id="filter-accessories">
+            <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group"
+                   value="accessories" id="filter-accessories">
             <label for="filter-accessories">Аксессуары</label>
           </li>
         </ul>
@@ -196,10 +207,11 @@
       <li class="pagination-item"><a href="#">4</a></li>
     </ul>
   </section>
-
+  </div>
 </main>
 
 <footer class="main-footer">
+  <div class="container">
   <p class="footer-contacts">
     Барбершоп «Бородинский»<br>
     Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
@@ -217,6 +229,7 @@
   <p class="footer-copyright">
     <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
   </p>
+  </div>
 </footer>
 
 <section class="modal modal-login">
